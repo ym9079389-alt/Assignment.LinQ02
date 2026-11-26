@@ -43,6 +43,12 @@ namespace Assignment.LinQ02
             //var Result = ids.Contains(9);
             //Console.WriteLine(Result);
             #endregion
+
+            #region Q06
+            //var Result = Source.ProductList.GroupBy(p => p.Category);
+            //foreach (var r in Result)
+            //    Console.WriteLine($"{r.Key}: {r.Count()}");
+            #endregion
         }
     }
 }
