@@ -60,6 +60,17 @@ namespace Assignment.LinQ02
             //foreach (var r in Result)
             //    Console.WriteLine($"{r.Category} : {string.Join(", ", r.Names)}");
             #endregion
+
+            #region Q08
+            //var Result = Source.ProductList.GroupBy(p => p.Category).Where(s => s.Count() > 3).Select(g => new
+            //{
+            //    Category = g.Key,
+            //    Count = g.Count()
+            //});
+
+            //foreach (var r in Result)
+            //    Console.WriteLine($"{r.Category} : {r.Count}");
+            #endregion
         }
     }
 }
