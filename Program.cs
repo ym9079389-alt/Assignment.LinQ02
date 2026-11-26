@@ -85,6 +85,11 @@ namespace Assignment.LinQ02
             //foreach (var r in Result)
             //    Console.WriteLine($"{r.Country} : {r.Count}");
             #endregion
+
+            #region Q10
+            //var Result = Source.ProductList.Sum(P => P.UnitsInStock);
+            //Console.WriteLine(Result);
+            #endregion
         }
     }
 }
