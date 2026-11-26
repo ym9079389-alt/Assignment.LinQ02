@@ -1,5 +1,4 @@
-﻿using Assignment.LinQ01;
-
+﻿
 namespace Assignment.LinQ02
 {
     internal class Program
@@ -40,7 +39,9 @@ namespace Assignment.LinQ02
             #endregion
 
             #region Q05
-
+            //int[] ids = { 3, 9, 13, 18 };
+            //var Result = ids.Contains(9);
+            //Console.WriteLine(Result);
             #endregion
         }
     }
