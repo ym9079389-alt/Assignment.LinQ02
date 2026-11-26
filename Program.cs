@@ -34,9 +34,13 @@ namespace Assignment.LinQ02
             #endregion
 
             #region Q04
-            //var Result = Source.ProductList.All(P => P.Category == "Seafood");
+            //var Result = Source.ProductList.Where(P => P.Category == "Seafood").All(P => P.UnitsInStock > 0);
 
             //Console.WriteLine(Result);
+            #endregion
+
+            #region Q05
+
             #endregion
         }
     }
