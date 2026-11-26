@@ -71,6 +71,20 @@ namespace Assignment.LinQ02
             //foreach (var r in Result)
             //    Console.WriteLine($"{r.Category} : {r.Count}");
             #endregion
+
+            #region Q09
+            //var Result = from C in Source.CustomerList
+            //             group C by C.Country into g
+            //             select new
+            //             {
+            //                 Country = g.Key,
+            //                 Count = g.Count(),
+            //                 TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //             };
+
+            //foreach (var r in Result)
+            //    Console.WriteLine($"{r.Country} : {r.Count}");
+            #endregion
         }
     }
 }
