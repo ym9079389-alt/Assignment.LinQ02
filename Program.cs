@@ -8,14 +8,21 @@ namespace Assignment.LinQ02
         {
             #region Q01
             //var Result = Source.ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
-            
+
             //foreach (var product in Result)
             //{
             //    Console.WriteLine(product);
             //}
             #endregion
 
+            #region Q02
+            //var Result = Source.ProductList.Skip(5).Take(5);
 
+            //foreach (var product in Result)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
