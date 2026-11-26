@@ -23,6 +23,15 @@ namespace Assignment.LinQ02
             //    Console.WriteLine(product);
             //}
             #endregion
+
+            #region Q03
+            //var Result = Source.ProductList.OrderBy(p => p.UnitPrice).TakeWhile(P => P.UnitPrice < 25);
+
+            //foreach (var product in Result)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
