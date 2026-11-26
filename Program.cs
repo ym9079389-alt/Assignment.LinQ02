@@ -32,6 +32,12 @@ namespace Assignment.LinQ02
             //    Console.WriteLine(product);
             //}
             #endregion
+
+            #region Q04
+            //var Result = Source.ProductList.All(P => P.Category == "Seafood");
+
+            //Console.WriteLine(Result);
+            #endregion
         }
     }
 }
