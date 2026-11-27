@@ -124,6 +124,11 @@ namespace Assignment.LinQ02
             //foreach (var r in Result)
             //    Console.WriteLine(r);
             #endregion
+
+            #region Q15
+            //var dict = Source.ProductList.ToDictionary(p => p.ProductID);
+            //Console.WriteLine(dict[18]);
+            #endregion
         }
     }
 }
