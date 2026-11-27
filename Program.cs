@@ -151,6 +151,13 @@ namespace Assignment.LinQ02
             //foreach (var r in Result)
             //    Console.WriteLine(r);
             #endregion
+
+            #region Q20
+            //var result = Source.ProductList.Take(3).Select(p => p.ProductName)
+            //.Zip(Source.CustomerList.Take(3).Select(c => c.CustomerName));
+            //foreach (var r in result)
+            //    Console.WriteLine(r);
+            #endregion
         }
     }
 }
