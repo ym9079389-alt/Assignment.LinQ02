@@ -90,6 +90,13 @@ namespace Assignment.LinQ02
             //var Result = Source.ProductList.Sum(P => P.UnitsInStock);
             //Console.WriteLine(Result);
             #endregion
+
+            #region Q11
+            //var Min = Source.ProductList.OrderBy(P => P.UnitPrice).First();
+            //var Max = Source.ProductList.OrderByDescending(P => P.UnitPrice).First();
+            //Console.WriteLine(Min);
+            //Console.WriteLine(Max);
+            #endregion
         }
     }
 }
