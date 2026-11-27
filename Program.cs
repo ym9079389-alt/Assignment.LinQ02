@@ -129,6 +129,11 @@ namespace Assignment.LinQ02
             //var dict = Source.ProductList.ToDictionary(p => p.ProductID);
             //Console.WriteLine(dict[18]);
             #endregion
+
+            #region Q16
+            //var Result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 18);
+            //Console.WriteLine(Result);
+            #endregion
         }
     }
 }
