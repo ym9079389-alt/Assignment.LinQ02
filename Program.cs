@@ -158,6 +158,14 @@ namespace Assignment.LinQ02
             //foreach (var r in result)
             //    Console.WriteLine(r);
             #endregion
+
+            #region Q21
+            //var Result = Source.ProductList.Zip(Source.CustomerList,
+            //    (p, c) => $"{p.ProductName} sold to {c.CustomerName}");
+
+            //foreach (var r in Result)
+            //    Console.WriteLine(r);
+            #endregion
         }
     }
 }
