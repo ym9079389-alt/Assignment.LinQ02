@@ -94,8 +94,17 @@ namespace Assignment.LinQ02
             #region Q11
             //var Min = Source.ProductList.OrderBy(P => P.UnitPrice).First();
             //var Max = Source.ProductList.OrderByDescending(P => P.UnitPrice).First();
+
+            //var Min = Source.ProductList.Min(P => P.UnitPrice);
+            //var Max = Source.ProductList.Max(P => P.UnitPrice);
             //Console.WriteLine(Min);
             //Console.WriteLine(Max);
+            #endregion
+
+            #region Q12
+            //var Result = Source.ProductList.DistinctBy(P => P.Category);
+            //foreach (var r in Result)
+            //    Console.WriteLine(r);
             #endregion
         }
     }
