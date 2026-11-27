@@ -115,6 +115,15 @@ namespace Assignment.LinQ02
             //foreach (var r in Result)
             //    Console.WriteLine(r);
             #endregion
+
+            #region Q14
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var Result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+            //foreach (var r in Result)
+            //    Console.WriteLine(r);
+            #endregion
         }
     }
 }
