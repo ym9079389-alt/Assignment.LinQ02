@@ -145,6 +145,12 @@ namespace Assignment.LinQ02
             //foreach (var r in row)
             //    Console.WriteLine(r);
             #endregion
+
+            #region Q19
+            //var Result = Enumerable.Range(1, 30).Where(i => i % 2 == 0);
+            //foreach (var r in Result)
+            //    Console.WriteLine(r);
+            #endregion
         }
     }
 }
