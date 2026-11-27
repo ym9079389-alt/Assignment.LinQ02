@@ -134,6 +134,11 @@ namespace Assignment.LinQ02
             //var Result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 18);
             //Console.WriteLine(Result);
             #endregion
+
+            #region Q17
+            //var Result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(Result == null ? "No product found" : Result.ToString());
+            #endregion
         }
     }
 }
