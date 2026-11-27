@@ -139,6 +139,12 @@ namespace Assignment.LinQ02
             //var Result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
             //Console.WriteLine(Result == null ? "No product found" : Result.ToString());
             #endregion
+
+            #region Q18
+            //var row = Enumerable.Range(1, 12).Select(i => 7 * i);
+            //foreach (var r in row)
+            //    Console.WriteLine(r);
+            #endregion
         }
     }
 }
